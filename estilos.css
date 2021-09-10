@@ -1,0 +1,88 @@
+/* NOTE:
+body{
+  background-image: url(images/pattern-background-desktop.svg);
+  background-image:
+}
+*/
+.fondo{
+  position: absolute;
+  top: 0;
+}
+
+.carta{
+  /*Borde*/
+  position: relative;
+  background-color: white;
+  border-color: grey;
+  border-radius: 10px;
+  border-style:solid;
+  border-width: thin;
+  /*Posicion*/
+  padding: 0;
+  text-align: center;
+
+}
+
+.imagen-principal{
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+h1{
+  margin: 2rem 0 1rem;
+}
+.descripcion{
+  margin: 0 20%;
+  color: grey;
+
+}
+.precio{
+  border-color: white;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: medium;
+  margin: 2rem 20%;
+
+}
+
+.precio-imagen{
+  margin-top: 1rem;
+  margin-right: 0;
+}
+.precio-plan{
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+.precio-precio{
+  color: grey;
+}
+.precio-cambio{
+  margin-top: 2rem;
+}
+
+.boton,.boton-cancelar{
+  border-color: white;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: medium;
+  padding: 2% 20%;
+  margin: 0.5rem 10%;
+  background-color: #431EE7;
+  color: white;
+}
+
+.boton:hover{
+  background-color: #6259FF;
+  -webkit-transition-duration: 0.4s;
+}
+
+.boton-cancelar{
+
+  background-color: white;
+  color: grey;
+  margin-bottom: 2rem;
+}
+
+.boton-cancelar:hover{
+  color: black;
+  -webkit-transition-duration: 0.4s;
+}
